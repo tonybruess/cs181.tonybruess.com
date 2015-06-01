@@ -1,0 +1,123 @@
+/*
+ *= require twitter/bootstrap
+ *= require fonts
+ *= require_self
+ *= require_tree .
+ */
+
+html,
+body {
+    height: 100%;
+    font-family: 'Gafata', sans-serif;
+    font-size: 1.05em;
+    line-height: 1.5em;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -60px;
+}
+
+#push {
+    height: 100px;
+}
+
+#top {
+    margin: 0;
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    z-index: -1;
+}
+
+ul li {
+    margin-bottom: 10px;
+    line-height: 1.3em;
+}
+
+ul.nav {
+    margin-top: 20px;
+    margin-left: -15px;
+    width: 135px;
+}
+
+ul.nav.affix {
+    top: 0;
+}
+
+ul.nav li {
+    float: none;
+    margin-top: 5px;
+}
+
+ul.nav li.active a, ul.nav li.active a:hover {
+    background-color: #20214A;
+}
+
+ul.nav li a {
+    color: #20214A;
+    font-size: 28px;
+    padding: 15px 5px;
+}
+
+footer {
+    height: 60px;
+}
+
+footer .contents {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#logo h1 {
+    font-family: 'isocpeur';
+    color: #FFF;
+    font-size: 60px;
+    font-weight: normal;
+    text-transform: lowercase;
+}
+
+#logo:hover {
+    text-decoration: none;
+}
+
+#header {
+    padding-top: 50px;
+    background-color: #20214A;
+}
+
+#main {
+    margin-top: 15px;
+}
+
+.center {
+    text-align: center;
+}
+
+.page-header {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+#splash {
+    margin-top: 50px;
+}
+
+#splash p {
+    font-size: 1.6em;
+    line-height: 1.5em;
+}
+
+#splash span {
+    color: #20214A;
+    font-size: 1.3em;
+    word-spacing: 0px;
+}

@@ -1,0 +1,35 @@
+!!! 5
+%html
+    %head
+        %title Computers and the Environment
+        = stylesheet_link_tag "application", "//fonts.googleapis.com/css?family=Gafata"
+        = javascript_include_tag "application"
+    %body
+        #wrap
+            #top
+            #header
+                .container
+                    .row
+                        .span12
+                            %a#logo{:href => root_path}
+                                %h1.masthead-brand Computers and the Environment
+            .container
+                .row-fluid
+                    .span10#main
+                        = yield
+                    .span2
+                        %ul.nav.nav-pills{:data => {:spy => "affix", :offset => {:top => "79"}}}
+                            %li{:class => current_page?(first_path) ? "active" : ""}
+                                %a{:href => first_path} First
+                            %li{:class => (current_page?(second_path)) ? "active" : ""}
+                                %a{:href => second_path} Second
+                            %li{:class => current_page?(third_path) ? "active" : ""}
+                                %a{:href => third_path} Third
+            #push
+        %footer
+            .container
+                .contents
+                    .pull-left
+                        %span CS181 Final Project
+                    .pull-right
+                        %span Tony Bruess | Anna Carroll | Joel Dominguez | Teddy Morris-Knower
