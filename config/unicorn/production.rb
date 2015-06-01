@@ -1,6 +1,6 @@
 pid "/home/deploy/apps/cs181/shared/pids/unicorn.pid"
 
-listen 3001
+listen 3006
 worker_processes 1
 timeout 30
 preload_app true
