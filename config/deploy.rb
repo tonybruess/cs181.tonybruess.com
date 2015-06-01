@@ -6,7 +6,7 @@ set :rvm_ruby_string, "ruby-2.1.2"
 set :rvm_type, :system
 
 set :application, "cs181"
-set :repository, "git@github.com:OvercastNetwork/cs181.tonyb.io.git"
+set :repository, "git@github.com:mrapple/cs181.tonyb.io.git"
 
 set :scm, :git
 set :branch, 'master'
