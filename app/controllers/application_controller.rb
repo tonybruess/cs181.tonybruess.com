@@ -3,12 +3,12 @@ class ApplicationController < ActionController::Base
 	def index
 	end
 
-    def first
+    def problems
     end
 
-    def second
+    def policies
     end
 
-    def third
+    def ethics
     end
 end

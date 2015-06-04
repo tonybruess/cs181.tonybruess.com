@@ -40,7 +40,6 @@ ul li {
 ul.nav {
     margin-top: 20px;
     margin-left: -15px;
-    width: 135px;
 }
 
 ul.nav.affix {
@@ -60,6 +59,7 @@ ul.nav li a {
     color: #20214A;
     font-size: 28px;
     padding: 15px 5px;
+    line-height: 1em;
 }
 
 footer {
