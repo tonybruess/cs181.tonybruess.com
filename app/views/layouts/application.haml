@@ -2,7 +2,7 @@
 %html
     %head
         %title Computers and the Environment
-        = stylesheet_link_tag "application", "//fonts.googleapis.com/css?family=Gafata"
+        = stylesheet_link_tag "application", "//fonts.googleapis.com/css?family=Gafata", "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
         = javascript_include_tag "application"
     %body
         #wrap
@@ -18,7 +18,7 @@
                     .span9#main
                         = yield
                     .span3
-                        %ul.nav.nav-pills{:data => {:spy => "affix", :offset => {:top => "79"}}}
+                        %ul.nav.nav-pills{:data => {:spy => "affix", :offset => {:top => "110"}}}
                             %li{:class => current_page?(problems_path) ? "active" : ""}
                                 %a{:href => problems_path} Environmental and Social Problems
                             %li{:class => (current_page?(policies_path)) ? "active" : ""}
