@@ -3,7 +3,10 @@ class ApplicationController < ActionController::Base
 	def index
 	end
 
-    def problems
+    def pollution
+    end
+
+    def recycling
     end
 
     def policies

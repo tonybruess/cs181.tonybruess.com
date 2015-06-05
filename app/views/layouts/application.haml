@@ -19,8 +19,10 @@
                         = yield
                     .span3
                         %ul.nav.nav-pills{:data => {:spy => "affix", :offset => {:top => "110"}}}
-                            %li{:class => current_page?(problems_path) ? "active" : ""}
-                                %a{:href => problems_path} Environmental and Social Problems
+                            %li{:class => current_page?(pollution_path) ? "active" : ""}
+                                %a{:href => pollution_path} Energy, Pollution, and E-waste
+                            %li{:class => current_page?(recycling_path) ? "active" : ""}
+                                %a{:href => recycling_path} Informal Recycling
                             %li{:class => (current_page?(policies_path)) ? "active" : ""}
                                 %a{:href => policies_path} Current and Proposed Policies
                             %li{:class => current_page?(ethics_path) ? "active" : ""}
