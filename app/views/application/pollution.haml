@@ -1,6 +1,49 @@
 .row-fluid
     .span12
-        %h2 Rise of Computers
-        %p The pace of technological globalization is rapid and very apparent.
-        %p With this rapid pace of innovation comes with an equally quick rate of obsolescence. Users are constantly feeling the need to upgrade their computers, phones, and tablets. There’s always a newer, faster, thinner piece of technology.
-        %p While we are accustomed to the idea of an international forward supply chain, a reverse supply chain is the reuse, recycling, and disposal of products and their materials. And the scale of these international reverse supply chains is significant. For instance, export of waste and scrap and used goods from the United States was valued at $15 billion in 2005, which accounted for 1.5% of total exports.
+        %h2 The Rise of Computers
+        %p
+            We live in a world where technology is becoming more and more integrated into our daily lives. With the rapid pace of technological innovation, the latest gadgets are
+            = succeed '.' do
+                %a{:href => "http://www.forbes.com/sites/lewisgersh/2013/07/29/the-velocity-of-obsolescence/", :target => :blank} becoming obsolete at an even faster rate
+            Users constantly feel the need to upgrade their computers, phones, and tablets to the fastest, thinnest, and trendiest pieces of technology. However, it’s easy to forget the compounding global impact of setting increasingly short shelf lives on our sophisticated technologies.
+        %p
+            While we are accustomed to the idea of an international forward supply chain, users often fail to consider what happens to their products after they dispose of them. A reverse supply chain is the reuse, recycling, and disposal of products and their materials. The scale of these international reverse supply chains is significant; for instance, the export of waste and scrap and used goods from the United States
+            = succeed ',' do
+                %a{:href => "https://www.dosomething.org/facts/11-facts-about-e-waste", :target => :blank} was valued at $15 billion in 2005
+            which accounted for 1.5% of total exports.
+        %img{:src => "http://apploidnews.com/wp-content/uploads/2012/10/9ad44b71e90446548e9e9eb083c84603.jpg"}
+        %p.center Evolution of the iMac
+
+.row-fluid
+    .span12
+        %h2 Pollution and Energy
+        %p
+            As old models of computers continue to pile up in landfills, energy use and pollution are at an all-time high.
+            %a{:href => "https://www.dosomething.org/facts/11-facts-about-e-waste", :target => :blank} Production of the average computer
+            requires 530 pounds of fossil fuels, 48 pounds of chemicals, and 1.5 tons of water, an amount that quickly multiplies with the number of technological consumers in the world and the rate with which they replace their hardware.
+        %p
+            The problem is exacerbated by the fact that production is the most energy-demanding stage of a computer’s life.
+            %a{:href => "http://pubs.acs.org/doi/abs/10.1021/es035152j", :target => :blank} 81% of the energy
+            a computer expends in its lifetime is used in production, spread from mining precious metals for circuit boards to assembling the final piece of technology. Therefore, producing a new computer for each user every few years is particularly taxing on the environment.
+        %img{:src => "http://i.huffpost.com/gen/1621413/images/o-CHINA-POLLUTION-FACTORY-facebook.jpg"}
+        %p.center Pollution in China
+
+.row-fluid
+    .span12
+        %h2 E-waste
+        %p
+            In the past decade, e-waste has been also increasing. In 2010, totaling up computers, phones, and other pieces of technology in the United States, there were over 73 million units recycled and 310 million units trashed. Only 19.6% of the total 3.3 tons of e-waste was recycled.
+        %img{:src => "http://www.electronicstakeback.com/wp-content/uploads/recycling_2000to2011.jpg", :style => "margin-top: 10px; margin-bottom: 20px;"}
+        %p
+            E-waste is piling up in landfills in the United States and foreign countries. While precise estimates remain unclear,
+            %a{:href => "http://www.ban.org/E-waste/technotrashfinalcomp.pdf", :target => :blank} approximately 60% of end-of-life computers
+            go abroad and are recycled by an
+            = succeed '.' do
+                %a{:href => recycling_path} informal or "backyard" industry
+            Exporting this e-waste to developing countries is causing great harm to our environment.
+        %p
+            Computers contain toxic materials like lead, mercury, and arsenic, which are contained safely within the computer during use but which can be released during the recycling process, making them potentially dangerous. These toxic materials can leach from landfills and recycling centers into the surrounding environment if not properly treated.
+        %p
+            Regulation of US landfills and recycling centers has proved largely successful in minimizing pollution. Studies evaluating US recycling sites have shown that the levels of leached lead were
+            = succeed '.' do
+                %a{:href => "http://faculty.engineering.asu.edu/kavazanjian/wp-content/uploads/2011/07/11_Williams-et-al-2008-Environmental-Social-and-Economic-Implications-of-Global-Reuse-and-Recycling-of-Personal-Computers.pdf", :target => :blank} well below EPA levels of regulatory concern
